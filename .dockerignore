@@ -1,0 +1,47 @@
+# 虚拟环境
+venv/
+.venv/
+env/
+.env
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter 检查点
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Docker 相关
+Dockerfile
+docker-compose.yml
+nginx/
+
+# 数据和输出目录(通过 volume 挂载)
+data/
+output/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 敏感文件
+.env
+.env.*
+*.pem
+*.key

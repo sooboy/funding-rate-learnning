@@ -1,0 +1,86 @@
+# Python 虚拟环境
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# 环境变量和敏感文件
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# IDE 和编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 日志文件
+*.log
+logs/
+
+# 数据和输出目录（大文件）
+data/
+output/
+*.csv
+*.xlsx
+*.parquet
+*.pickle
+*.pkl
+
+# Docker 密码文件
+nginx/.htpasswd
+
+# 测试和覆盖率
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
